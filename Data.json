@@ -1,0 +1,53 @@
+{
+ "users": [
+  {
+   "id": "1",
+   "username": "Brad",
+   "password": "PBrad"
+  },
+  {
+   "id": "2",
+   "username": "Tim",
+   "password": "PTim"
+  },
+  {
+   "id": "3",
+   "username": "Bob",
+   "password": "PBob"
+  }
+ ],
+ "poems": [
+  {
+   "id": "1",
+   "title": "Light in the Dark",
+   "contents": "Darkness is not Light",
+   "usersId": "1"
+  },
+  {
+   "id": "2",
+   "title": "Dark in the Light",
+   "contents": "Lightness is not Dark",
+   "usersId": "2"
+  },
+  {
+   "id": "3",
+   "title": "Light is the Dark",
+   "contents": "Darkness is Light",
+   "usersId": "1"
+  }
+ ],
+ "comments": [
+  {
+   "id": "1",
+   "comment": "comment1",
+   "poemsId": "1",
+   "usersId": "2"
+  },
+  {
+   "id": "2",
+   "comment": "comment2",
+   "poemsId": "2",
+   "usersId": "1"
+  }
+ ]
+}
